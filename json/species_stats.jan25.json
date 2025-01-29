@@ -589,33 +589,47 @@
       {"class_": "Reptilia", "mn": 97, "mx": 110, "mid": 103.5}
     ],
     "data-1282954d51931d4d398b077023443dc4": [
-      {"order": "Anura", "mn": 16, "mx": 22, "mid": 18.5, "class_": "Amphibia"},
+      {"order": "Anura", "mn": 70, "mx": 97, "mid": 83.5, "class_": "Amphibia"},
       {
         "order": "Artiodactyla",
-        "mn": 53,
-        "mx": 60,
-        "mid": 56,
+        "mn": 284,
+        "mx": 301,
+        "mid": 292.5,
         "class_": "Mammalia"
       },
       {
         "order": "Atheriniformes",
-        "mn": 4,
-        "mx": 5,
-        "mid": 4,
+        "mn": 56,
+        "mx": 57,
+        "mid": 56.5,
         "class_": "Actinopteri"
       },
       {
         "order": "Caprimulgiformes",
-        "mn": 33,
-        "mx": 34,
-        "mid": 33,
+        "mn": 186,
+        "mx": 189,
+        "mid": 187.5,
         "class_": "Aves"
       },
+   {
+    "order": "Struthioniformes",
+    "mn": 189,
+    "mx": 191,
+    "mid": 190,
+    "class_": "Aves"
+   },
+   {
+    "order": "Charadriiformes",
+    "mn": 191,
+    "mx": 193,
+    "mid": 192,
+    "class_": "Aves"
+   },
       {
         "order": "Carnivora",
-        "mn": 60,
-        "mx": 61,
-        "mid": 60,
+        "mn": 301,
+        "mx": 307,
+        "mid": 304,
         "class_": "Mammalia"
       },
       {
@@ -627,151 +641,431 @@
       },
       {
         "order": "Cingulata",
-        "mn": 61,
-        "mx": 63,
-        "mid": 61.5,
+        "mn": 311,
+        "mx": 313,
+        "mid": 312,
         "class_": "Mammalia"
       },
       {
         "order": "Coliiformes",
-        "mn": 34,
-        "mx": 36,
-        "mid": 34.5,
+        "mn": 173,
+        "mx": 175,
+        "mid": 174,
         "class_": "Aves"
       },
+   {
+    "order": "Apodiformes",
+    "mn": 175,
+    "mx": 177,
+    "mid": 176,
+    "class_": "Aves"
+   },
+   {
+    "order": "Coraciiformes",
+    "mn": 177,
+    "mx": 179,
+    "mid": 178,
+    "class_": "Aves"
+   },
+   {
+    "order": "Apterygiformes",
+    "mn": 179,
+    "mx": 181,
+    "mid": 180,
+    "class_": "Aves"
+   },
+   {
+    "order": "Anseriformes",
+    "mn": 181,
+    "mx": 183,
+    "mid": 182,
+    "class_": "Aves"
+   },
       {
         "order": "Crocodylia",
-        "mn": 22,
-        "mx": 26,
-        "mid": 23.5,
+        "mn": 97,
+        "mx": 101,
+        "mid": 99,
         "class_": "Reptilia"
       },
+   {
+    "order": "Squamata",
+    "mn": 101,
+    "mx": 103,
+    "mid": 102,
+    "class_": "Reptilia"
+   },
       {
         "order": "Dermoptera",
-        "mn": 63,
-        "mx": 64,
-        "mid": 63,
+        "mn": 307,
+        "mx": 308,
+        "mid": 307.5,
         "class_": "Mammalia"
       },
       {
         "order": "Didelphimorphia",
-        "mn": 64,
-        "mx": 65,
-        "mid": 64,
+        "mn": 310,
+        "mx": 311,
+        "mid": 310.5,
         "class_": "Mammalia"
       },
       {
         "order": "Diprotodontia",
-        "mn": 65,
-        "mx": 66,
-        "mid": 65,
+        "mn": 283,
+        "mx": 284,
+        "mid": 283.5,
         "class_": "Mammalia"
       },
       {
         "order": "Eulipotyphla",
-        "mn": 66,
-        "mx": 67,
-        "mid": 66,
+        "mn": 220,
+        "mx": 221,
+        "mid": 220.5,
         "class_": "Mammalia"
       },
+   {
+    "order": "Chiroptera",
+    "mn": 221,
+    "mx": 273,
+    "mid": 247,
+    "class_": "Mammalia"
+   },
+   {
+    "order": "Lagomorpha",
+    "mn": 273,
+    "mx": 275,
+    "mid": 274,
+    "class_": "Mammalia"
+   },
+   {
+    "order": "Macroscelidea",
+    "mn": 275,
+    "mx": 277,
+    "mid": 276,
+    "class_": "Mammalia"
+   },
       {"order": "Gruiformes", "mn": 36, "mx": 37, "mid": 36, "class_": "Aves"},
       {
         "order": "Lampriformes",
-        "mn": 9,
-        "mx": 11,
-        "mid": 9.5,
+        "mn": 36,
+        "mx": 38,
+        "mid": 37,
         "class_": "Actinopteri"
       },
+  {
+    "order": "Percopsiformes",
+    "mn": 38,
+    "mx": 40,
+    "mid": 39,
+    "class_": "Actinopteri"
+   },
+   {
+    "order": "Cyprinodontiformes",
+    "mn": 40,
+    "mx": 42,
+    "mid": 41,
+    "class_": "Actinopteri"
+   },
+   {
+    "order": "Osmeriformes",
+    "mn": 42,
+    "mx": 45,
+    "mid": 43.5,
+    "class_": "Actinopteri"
+   },
+     {
+    "order": "Polymixiiformes",
+    "mn": 45,
+    "mx": 47,
+    "mid": 46,
+    "class_": "Actinopteri"
+   },
+      {
+          "order": "Pristiophoriformes",
+          "mn": 0,
+          "mx": 2,
+          "mid": 1,
+          "class_": "Chondrichthyes"
+      },
+      {
+          "order": "Heterodontiformes",
+          "mn": 2,
+          "mx": 4,
+          "mid": 3,
+          "class_": "Chondrichthyes"
+       },
+              {
+          "order": "Torpediniformes",
+          "mn": 4,
+          "mx": 6,
+          "mid": 5,
+          "class_": "Chondrichthyes"
+       },
+              {
+          "order": "Chimaeriformes",
+          "mn": 6,
+          "mx": 8,
+          "mid": 7,
+          "class_": "Chondrichthyes"
+       },
+       {
+          "order": "Orectolobiformes",
+          "mn": 8,
+          "mx": 10,
+          "mid": 9,
+          "class_": "Chondrichthyes"
+       },
+              {
+          "order": "Lamniformes",
+          "mn": 10,
+          "mx": 12,
+          "mid": 11,
+          "class_": "Chondrichthyes"
+       },
+       {
+          "order": "Hexanchiformes",
+          "mn": 12,
+          "mx": 14,
+          "mid": 13,
+          "class_": "Chondrichthyes"
+       },
       {
         "order": "Myliobatiformes",
-        "mn": 0,
-        "mx": 4,
-        "mid": 1.5,
+        "mn": 14,
+        "mx": 20,
+        "mid": 17,
         "class_": "Chondrichthyes"
       },
       {
         "order": "Opisthocomiformes",
-        "mn": 37,
-        "mx": 39,
-        "mid": 37.5,
+        "mn": 164,
+        "mx": 166,
+        "mid": 165,
         "class_": "Aves"
       },
+   {
+    "order": "Accipitriformes",
+    "mn": 166,
+    "mx": 170,
+    "mid": 168,
+    "class_": "Aves"
+   },
+   {
+    "order": "Pelecaniformes",
+    "mn": 170,
+    "mx": 171,
+    "mid": 170.5,
+    "class_": "Aves"
+   },
+   {
+    "order": "Suliformes",
+    "mn": 171,
+    "mx": 173,
+    "mid": 172,
+    "class_": "Aves"
+   },
       {
         "order": "Passeriformes",
-        "mn": 39,
-        "mx": 49,
-        "mid": 43.5,
+        "mn": 126,
+        "mx": 149,
+        "mid": 137.5,
         "class_": "Aves"
       },
+   {
+    "order": "Eurypygiformes",
+    "mn": 149,
+    "mx": 150,
+    "mid": 149.5,
+    "class_": "Aves"
+   },
+   {
+    "order": "Columbiformes",
+    "mn": 150,
+    "mx": 156,
+    "mid": 153,
+    "class_": "Aves"
+   },
+   {
+    "order": "Strigiformes",
+    "mn": 156,
+    "mx": 160,
+    "mid": 158,
+    "class_": "Aves"
+   },
+   {
+    "order": "Galliformes",
+    "mn": 160,
+    "mx": 162,
+    "mid": 161,
+    "class_": "Aves"
+   },
+   {
+    "order": "Gaviiformes",
+    "mn": 162,
+    "mx": 164,
+    "mid": 163,
+    "class_": "Aves"
+   },
       {
         "order": "Perciformes",
-        "mn": 11,
-        "mx": 12,
-        "mid": 11,
+        "mn": 20,
+        "mx": 26,
+        "mid": 23,
         "class_": "Actinopteri"
       },
+  {
+    "order": "Salmoniformes",
+    "mn": 26,
+    "mx": 28,
+    "mid": 27,
+    "class_": "Actinopteri"
+   },
+     {
+    "order": "Labriformes",
+    "mn": 28,
+    "mx": 30,
+    "mid": 29,
+    "class_": "Actinopteri"
+   },
+   {
+    "order": "Semionotiformes",
+    "mn": 30,
+    "mx": 34,
+    "mid": 32,
+    "class_": "Actinopteri"
+   },
+   {
+    "order": "Acropomatiformes",
+    "mn": 34,
+    "mx": 36,
+    "mid": 35,
+    "class_": "Actinopteri"
+   },
       {
         "order": "Pholidota",
-        "mn": 67,
-        "mx": 69,
-        "mid": 67.5,
+        "mn": 308,
+        "mx": 310,
+        "mid": 309,
         "class_": "Mammalia"
       },
       {
         "order": "Proboscidea",
-        "mn": 69,
-        "mx": 71,
-        "mid": 69.5,
+        "mn": 313,
+        "mx": 314,
+        "mid": 313.5,
         "class_": "Mammalia"
       },
       {
         "order": "Psittaciformes",
-        "mn": 49,
-        "mx": 51,
-        "mid": 49.5,
+        "mn": 194,
+        "mx": 202,
+        "mid": 198,
         "class_": "Aves"
       },
-      {"order": "Rheiformes", "mn": 51, "mx": 52, "mid": 51, "class_": "Aves"},
+   {
+    "order": "Rodentia",
+    "mn": 202,
+    "mx": 218,
+    "mid": 210,
+    "class_": "Mammalia"
+   },
+   {
+    "order": "Perissodactyla",
+    "mn": 218,
+    "mx": 220,
+    "mid": 219,
+    "class_": "Mammalia"
+   },
+      {"order": "Rheiformes", "mn": 183, "mx": 184, "mid": 183, "class_": "Aves"},
+   {
+    "order": "Casuariiformes",
+    "mn": 184,
+    "mx": 186,
+    "mid": 185,
+    "class_": "Aves"
+   },
       {
         "order": "Scombriformes",
-        "mn": 12,
-        "mx": 13,
-        "mid": 12,
+        "mn": 57,
+        "mx": 58,
+        "mid": 57.5,
         "class_": "Actinopteri"
       },
+   {    
+    "order": "Cichliformes",
+    "mn": 58,
+    "mx": 62,
+    "mid": 60,
+    "class_": "Actinopteri"
+   },
+   {
+    "order": "Amiiformes",
+    "mn": 62,
+    "mx": 64,
+    "mid": 63,
+    "class_": "Actinopteri"
+   },
+   {
+    "order": "Cypriniformes",
+    "mn": 64,
+    "mx": 68,
+    "mid": 66,
+    "class_": "Actinopteri"
+   },
+   {
+    "order": "Pleuronectiformes",
+    "mn": 68,
+    "mx": 70,
+    "mid": 69,
+    "class_": "Actinopteri"
+   },
       {
         "order": "Siluriformes",
-        "mn": 13,
-        "mx": 16,
-        "mid": 14,
+        "mn": 47,
+        "mx": 50,
+        "mid": 48.5,
         "class_": "Actinopteri"
       },
+   {
+    "order": "Characiformes",
+    "mn": 50,
+    "mx": 56,
+    "mid": 53,
+    "class_": "Actinopteri"
+   },
       {
         "order": "Sirenia",
-        "mn": 71,
-        "mx": 73,
-        "mid": 71.5,
+        "mn": 277,
+        "mx": 279,
+        "mid": 278,
         "class_": "Mammalia"
       },
+   {
+    "order": "Primates",
+    "mn": 279,
+    "mx": 283,
+    "mid": 281,
+    "class_": "Mammalia"
+   },
       {
         "order": "Sphenisciformes",
-        "mn": 52,
-        "mx": 53,
-        "mid": 52,
+        "mn": 193,
+        "mx": 194,
+        "mid": 193.5,
         "class_": "Aves"
       },
       {
         "order": "Squamata",
-        "mn": 27,
-        "mx": 33,
-        "mid": 29.5,
+        "mn": 110,
+        "mx": 126,
+        "mid": 118,
         "class_": "Lepidosauria"
       },
       {
         "order": "Testudines",
-        "mn": 26,
-        "mx": 27,
-        "mid": 26,
+        "mn": 103,
+        "mx": 110,
+        "mid": 106.5,
         "class_": "Reptilia"
       }
     ],

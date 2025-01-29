@@ -24,7 +24,7 @@ while (<IN>) {
     }
 
     if (-s "$ncbi_species.json" == 0) {
-        warn "Don't know what to do with $ncbi_species.json; it appears to be empty.";
+      #warn "Don't know what to do with $ncbi_species.json; it appears to be empty.";
         print $PROB "$ncbi_species\n";
         #    next;
     }
@@ -101,11 +101,15 @@ while (<IN>) {
 }
 close $PROB;
 
+open CLASS, ">class.data" or die;
+open ORDER, ">order.data" or die;
 #print  qw|Mammalia  Aves Lepidosauria Reptilia Amphibia Actinopteri Chondrichthyes|;
 my $mn = 0;
 my @finallist;
-foreach my $classcounter  (qw|Mammalia  Aves Lepidosauria Reptilia Amphibia Actinopteri Chondrichthyes|) {
+foreach my $classcounter  (qw| Chondrichthyes Actinopteri Amphibia Reptilia Lepidosauria Aves Mammalia|) {
+    print CLASS "$classcounter\t$mn\n";
     for my $ordercounter  (keys %{$assembly{$classcounter}}) {
+      print ORDER "$classcounter\t$ordercounter\t$mn\n";
       #print "$classcounter, $ordercounter, ",scalar @{$assembly{$classcounter}{$ordercounter}}, "\n";
         for my $hash (@{$assembly{$classcounter}{$ordercounter}}) {
             $$hash{'mn'} = $mn;
@@ -117,6 +121,8 @@ foreach my $classcounter  (qw|Mammalia  Aves Lepidosauria Reptilia Amphibia Acti
     }
 }
 
+close CLASS;
+close ORDER;
 print JSON->new->pretty->encode(\@finallist);
 
 # ./datasets summary taxonomy taxon "Emys orbicularis"
