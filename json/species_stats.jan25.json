@@ -601,7 +601,7 @@
         "order": "Atheriniformes",
         "mn": 56,
         "mx": 57,
-        "mid": 56.5,
+        "mid": 56,
         "class_": "Actinopteri"
       },
       {
@@ -699,28 +699,28 @@
         "order": "Dermoptera",
         "mn": 307,
         "mx": 308,
-        "mid": 307.5,
+        "mid": 307,
         "class_": "Mammalia"
       },
       {
         "order": "Didelphimorphia",
         "mn": 310,
         "mx": 311,
-        "mid": 310.5,
+        "mid": 310,
         "class_": "Mammalia"
       },
       {
         "order": "Diprotodontia",
         "mn": 283,
         "mx": 284,
-        "mid": 283.5,
+        "mid": 283,
         "class_": "Mammalia"
       },
       {
         "order": "Eulipotyphla",
         "mn": 220,
         "mx": 221,
-        "mid": 220.5,
+        "mid": 220,
         "class_": "Mammalia"
       },
    {
@@ -854,7 +854,7 @@
     "order": "Pelecaniformes",
     "mn": 170,
     "mx": 171,
-    "mid": 170.5,
+    "mid": 170,
     "class_": "Aves"
    },
    {
@@ -988,7 +988,7 @@
         "order": "Scombriformes",
         "mn": 57,
         "mx": 58,
-        "mid": 57.5,
+        "mid": 57,
         "class_": "Actinopteri"
       },
    {    
@@ -1051,7 +1051,7 @@
         "order": "Sphenisciformes",
         "mn": 193,
         "mx": 194,
-        "mid": 193.5,
+        "mid": 193,
         "class_": "Aves"
       },
       {
