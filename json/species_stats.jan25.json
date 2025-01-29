@@ -633,13 +633,6 @@
         "class_": "Mammalia"
       },
       {
-        "order": "Characiformes",
-        "mn": 5,
-        "mx": 9,
-        "mid": 6.5,
-        "class_": "Actinopteri"
-      },
-      {
         "order": "Cingulata",
         "mn": 311,
         "mx": 313,
@@ -875,7 +868,7 @@
     "order": "Eurypygiformes",
     "mn": 149,
     "mx": 150,
-    "mid": 149.5,
+    "mid": 149,
     "class_": "Aves"
    },
    {
